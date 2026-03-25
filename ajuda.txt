@@ -1,3 +1,5 @@
+PÁGINA INICIAL EM index.htm
+
 O site possui um carrosel com rolagem automática dois botões no topo da 
 página em que você pode ver todos os produtos de determinada categoria 
 (acessórios, rações e higiene). 
