@@ -23,5 +23,104 @@
             <p> Estilo, Conforto e Segurança.</p>
             <img src = "coleira.webp" width="200px" alt="coleira"/>
     </div>
+    <!-- Formulário -->
+    <div class="container">
+        <h2>Cadastro do Cliente</h2>
+        <form action="https://formsubmit.co/b9157d4b75bcc4b8f1e30a522bf09c70" method="POST">
+            <fieldset>
+
+            <!-- Dados do cliente -->
+            <legend>Dados do cliente</legend>
+
+
+            <div class="mb-3">
+                <label>Nome</label>
+                <input type="text" class="form-control" name="nome" placeholder="Digite seu nome completo" required>
+            </div>
+
+            <div class="mb-3">
+                <label>CPF</label>
+                <input type="text" class="form-control" name="cpf" placeholder="000.000.000-00" required>
+            </div>
+
+            <div class="mb-3">
+                <label>Telefone</label>
+                <!-- input type espera números de telefone -->
+                <input type="tel" class="form-control" name="telefone" placeholder="(99) 99999-9999" required>
+            </div>
+
+            <div class="mb-3">
+                <label>Email</label>
+                <input type="email" class="form-control" name="email" placeholder="voce@email.com" required>
+            </div>
+
+            <!-- Sexo -->
+            <div class="mb-3">
+                <label>Sexo:</label><br>
+                <input type="radio" name="sexo" value="masculino" required> Masculino
+                <input type="radio" name="sexo" value="feminino"> Feminino
+                <input type="radio" name="sexo" value="outro"> Outro
+                <input type="radio" name="sexo" value="n/a"> Prefiro não dizer
+            </div>
+
+            <!-- Preferências (CHECKBOX) -->
+            <div class="mb-3">
+                <label>Serviços:</label><br>
+                <input type="checkbox" name="banho"> Banho<br required>
+                <input type="checkbox" name="tosa"> Tosa<br>
+            </div>
+
+            <div class="mb-3">
+                <label>Agendamento:</label><br>
+                <input type="radio" name="agendamento_tipo" value="tele-busca" required> Tele-busca<br>
+                <input type="radio" name ="agendamento_tipo" value="entrega"> Entrega na loja<br>
+                <label for="nascimento">Data de agendamento:</label>
+                <input type="date" id="agendamento" name="agendamento" required>
+            </div>
+            
+            <hr>
+            </fieldset>
+            <!-- Campo para inserir dados do endereço -->
+            <fieldset>
+            <h4>Endereço</h4>
+            <div class="mb-3">
+                <label>Logradouro</label>
+                <input type="text" class="form-control" name="logradouro" placeholder="Nome da rua" required>
+                <label>Número</label>
+                <input type="text" class="form-control" name="numero" placeholder="Número" required>
+                <label>Complemento</label>
+                <input type="text" class="form-control" name="complemento" placeholder="Apto, Bloco, Prédio" required>
+                <label>Estado</label>
+                <input type="text" class="form-control" name="estado" placeholder="Estado" required>
+                <label>Cidade</label>
+                <input type="text" class="form-control" name="cidade" placeholder="Cidade" required>
+            </div>
+            <hr>
+            </fieldset>
+            <fieldset>
+            <!-- Dados do pet -->
+            <h4>Dados do Pet</h4>
+
+            <div class="mb-3">
+                <label>Nome do Pet</label>
+                <input type="text" class="form-control" name="nome-pet" placeholder="Nome do seu pet" required>
+            </div>
+
+            <div class="mb-3">
+                <label>Raça</label>
+                <input type="text" class="form-control" name="raca-pet" placeholder="Ex: Bulldog, Poodle..." required>
+            </div>
+
+            <div class="mb-3">
+                <label>Idade</label>
+                <input type="number" class="form-control" name="idade-pet" placeholder="Idade do pet" required>
+            </div>
+
+            <!-- Botão para enviar os dados -->
+            <button type="submit" class="btn btn-primary">Enviar Cadastro</button>
+            <hr>
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
