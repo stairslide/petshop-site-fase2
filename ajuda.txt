@@ -1,1 +1,10 @@
-O site possui um carrosel no topo da página em que você pode
+O site possui um carrosel com rolagem automática dois botões no topo da 
+página em que você pode ver todos os produtos de determinada categoria 
+(acessórios, rações e higiene). 
+
+Ainda na página inicial, há uma pequena lista dos itens em cada 
+categoria, seguida de uma lista de serviços e seus preços.
+
+Abaixo há um formulário em que o usuário poderá preencher os seus
+dados de usuário, inserir seu endereço e agendar algum serviço com a 
+petshop. Abaixo há um rodapé com contato e horário de atendimento.
